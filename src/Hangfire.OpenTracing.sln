@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.OpenTracing", "Hangfire.OpenTracing\Hangfire.OpenTracing.csproj", "{C089A621-39B8-49D2-8DA2-AF6205DDF36F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{B7CABB2A-0DEE-4919-969A-E944382055A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "..\examples\WebApi\WebApi.csproj", "{B16D9B41-DAA7-44A5-8AC3-B70A986DAE88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C089A621-39B8-49D2-8DA2-AF6205DDF36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C089A621-39B8-49D2-8DA2-AF6205DDF36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C089A621-39B8-49D2-8DA2-AF6205DDF36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C089A621-39B8-49D2-8DA2-AF6205DDF36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16D9B41-DAA7-44A5-8AC3-B70A986DAE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16D9B41-DAA7-44A5-8AC3-B70A986DAE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16D9B41-DAA7-44A5-8AC3-B70A986DAE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16D9B41-DAA7-44A5-8AC3-B70A986DAE88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B16D9B41-DAA7-44A5-8AC3-B70A986DAE88} = {B7CABB2A-0DEE-4919-969A-E944382055A1}
+	EndGlobalSection
+EndGlobal
