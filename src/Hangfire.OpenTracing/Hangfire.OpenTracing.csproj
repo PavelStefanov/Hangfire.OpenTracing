@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>Hangfire.OpenTracing</PackageId>
-    <Version>0.0.1-beta</Version>
+    <Version>1.0.0</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Title>Hangfire OpenTracing integration</Title>
     <Description>Hangfire OpenTracing integration</Description>
@@ -13,10 +13,5 @@
   <ItemGroup>
     <PackageReference Include="Hangfire.Core" Version="1.7.20" />
     <PackageReference Include="OpenTracing" Version="0.12.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-      <HintPath>..\..\..\..\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-    </Reference>
   </ItemGroup>
 </Project>
