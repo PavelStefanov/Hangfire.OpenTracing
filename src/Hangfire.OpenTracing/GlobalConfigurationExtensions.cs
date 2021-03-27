@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Hangfire.OpenTracing;
+using System;
 
-namespace Hangfire.OpenTracing
+namespace Hangfire
 {
     public static class GlobalConfigurationExtensions
     {
