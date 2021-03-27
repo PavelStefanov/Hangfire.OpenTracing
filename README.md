@@ -21,16 +21,17 @@ public void ConfigureServices(IServiceCollection services)
 {
     // make sure you configure OpenTracing before 
     services.AddHangfire(c =>
-        {
-            // ...
+    {
+        // ...
 
-            // Add OpenTracing integration
-            c.UseOpenTracingFilter(options => {
-                // these are the defaults
-                options.ComponentName = "Hangfire";
-                options.IncludeExceptionDetails = false;
-            });
+        // Add OpenTracing integration
+        c.UseOpenTracingFilter(options => 
+        {
+            // these are the defaults
+            options.ComponentName = "Hangfire";
+            options.IncludeExceptionDetails = false;
         });
-        services.AddHangfireServer();
+    });
+    services.AddHangfireServer();
 }
 ```
