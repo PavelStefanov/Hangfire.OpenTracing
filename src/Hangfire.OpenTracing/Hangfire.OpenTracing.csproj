@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <PackageId>Hangfire.OpenTracing</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Title>Hangfire OpenTracing integration</Title>
     <Description>Hangfire OpenTracing integration</Description>

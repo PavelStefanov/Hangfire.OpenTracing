@@ -2,7 +2,6 @@ using Hangfire;
 using Hangfire.Mongo;
 using Hangfire.Mongo.Migration.Strategies;
 using Hangfire.Mongo.Migration.Strategies.Backup;
-using Hangfire.OpenTracing;
 using Jaeger;
 using Jaeger.Reporters;
 using Jaeger.Samplers;
